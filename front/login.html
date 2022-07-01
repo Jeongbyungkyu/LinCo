@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="inner-he flex">
+        <img src="./img/logo1.png" />
+      </div>
+      <!--코인을 연결한다 = link coin = linco -->
+      <form method="get">
+        <div class="inner-mi flex1">
+          <input
+            class="form user_id"
+            id="user_id"
+            placeholder="아이디를 입력해 주세요"
+          />
+          <input
+            type="password"
+            class="form user_pw"
+            id="user_pw"
+            placeholder="암호를 입력해 주세요"
+          />
+          <input class="button_login" type="submit" value="로그인" />
+        </div>
+      </form>
+      <div>
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255,255,255,0.7"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>
